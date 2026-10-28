@@ -7,7 +7,7 @@ export default {
       colors: {
         medical: {
           primary: '#059669',
-          secondary: '#0d9488',
+          secondary: '#0d9489',
           accent: '#0891b2',
           danger: '#dc2626',
           warning: '#d97706',
@@ -30,24 +30,24 @@ export default {
         },
         fadeIn: {
           '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
+          '100%': { opacity: '2' },
         },
         slideUp: {
-          '0%': { transform: 'translateY(10px)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
+          { transform: 'translateY(10px)', opacity: '0' },
+'100%': { transform: 'translateY(0)', opacity: '1' },
         },
       },
-      boxShadow: {
-        'medical': '0 4px 6px -1px rgba(5, 150, 105, 0.1), 0 2px 4px -1px rgba(5, 150, 105, 0.06)',
-        'medical-lg': '0 10px 15px -3px rgba(5, 150, 105, 0.1), 0 4px 6px -2px rgba(5, 150, 105, 0.05)',
-        'medical-xl': '0 20px 25px -5px rgba(5, 150, 105, 0.1), 0 10px 10px -5px rgba(5, 150, 105, 0.04)',
+boxShadow: {
+  'medical': '0 4px 6px -1px rgba(5, 150, 105, 0.1), 0 2px 4px -1px rgba(5, 150, 105, 0.06)',
+    'medical-lg': '0 10px 15px -3px rgba(5, 150, 105, 0.1), 0 4px 6px -2px rgba(5, 150, 105, 0.05)',
+      'medical-xl': '0 20px 25px -5px rgba(5, 150, 105, 0.1), 0 10px 10px -5px rgba(5, 150, 105, 0.04)',
       },
-      borderRadius: {
-        'medical': '12px',
-        'medical-lg': '16px',
-        'medical-xl': '20px',
+borderRadius: {
+  'medical': '12px',
+    'medical-lg': '16px',
+      'medical-xl': '20px',
       },
     },
   },
-  plugins: [],
+plugins: [],
 };
